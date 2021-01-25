@@ -1,0 +1,21 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f60731fb133, pid=28981, tid=29002
+#
+# JRE version: OpenJDK Runtime Environment (11.0.10+8) (build 11.0.10-ea+8-post-Debian-1)
+# Java VM: OpenJDK 64-Bit Server VM (11.0.10-ea+8-post-Debian-1, mixed mode, sharing, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libjimage.so+0x3133]
+#
+# No core dump will be written. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugs.debian.org/openjdk-11
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:43157 --module-path=\path\to\javafx-sdk-12.0.1\lib --add-modules=javafx.controls,javafx.fxml -javaagent:/home/tranquyet/Documents/eclipse/configuration/org.eclipse.osgi/400/0/.cp/lib/javaagent-shaded.jar -Dfile.encoding=UTF-8 --module-path=/usr/share/openjfx/lib/javafx.web.jar:/usr/share/openjfx/lib/javafx.swing.jar:/usr/share/openjfx/lib/javafx.media.jar:/usr/share/openjfx/lib/javafx.graphics.jar:/usr/share/openjfx/lib/javafx.fxml.jar:/usr/share/openjfx/lib/javafx.controls.jar:/usr/share/openjfx/lib/javafx.base.jar application.Main
+
+Host: 
